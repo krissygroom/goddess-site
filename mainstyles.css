@@ -19,7 +19,6 @@ html {
 body {
     width: 100%;
     margin: 0;
-    /* font-family: 'Gilda Display', serif; */
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
 }
@@ -201,31 +200,31 @@ body {
     padding-bottom: 20px;
     width: 100%;
     margin: 0;
-    /* background-color: #90B0AF; */
-    /* background-color: white; */
-    background-color: #a4bebd;
-    
+    background-color: white;
+    /* background-color: #a4bebd; */
 }
 
 .jumbotron {
     width: 100%;
     color: white;
-    background-color: #848A98;
-    margin-top: 0.75em;
-    
-    
+    /* background-color: #848A98; */
+    background-color: #7C838A;
+    margin-top: 0;   
 }
+
 .jumbotron h2{
     padding-top: 1em;
     padding-bottom: 1em;
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
 }
 
 #mainContainer {
     background-color: white;
     overflow: visible;
 }
-
-
 
 .imageSection {
     background-image:url(image/goldbird.gif);
@@ -283,8 +282,11 @@ body {
 
 @media (min-width: 768px) {
     .mainsection {
-        padding-left: 1em;
-        padding-right: .5em;
+        /* padding-left: 1em;
+        padding-right: .5em; */
+        padding: 0;
+        width: auto;
+        margin: 0;
         
     }
 }
