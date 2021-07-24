@@ -1,0 +1,300 @@
+/*This is my main CSS file with decoration that will be used throughout each page.*/
+
+@font-face {
+    font-family: "black_jack";
+    src: url(black_jack.ttf);
+}
+
+.black_jack {
+    font-family: "black_jack";
+}
+
+html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    /* font-family: 'Gilda Display', serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.pagewrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    line-height: 1.3em;
+}
+
+p {
+    margin-bottom: 1.2em;
+}
+
+a:link {
+    color: #C71B1B;
+}
+
+a:visited {
+    color: #017467;
+}
+
+.header {
+    width: 100%; 
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header h1 {
+    font-family: 'blackjackregular';
+    background-color: #848A98;
+    line-height: 2em;
+    padding: 0 0 0 .5em;
+    border-bottom: .1em solid white;
+    font-size: 2.5em;
+    font-weight: 500;
+    white-space: nowrap;
+    min-width: 40%;
+    overflow: hidden;
+}
+.header h1 a {
+    color: white;
+}
+#mainImage {
+    height: 20em;
+    overflow: hidden;
+}
+#mainImage img {
+    max-width: 100%;
+    height: auto;
+    min-width: 100%;
+}
+.header h2 {
+    font-family: 'blackjackregular';
+    font-size: 1.8em;
+    background-color: #848A98;
+    line-height: 2em;
+    padding: 0 0 0 .5em;
+    border-top: .2em solid white;
+    color: white;
+    white-space: nowrap;
+    min-width: 40%;
+    overflow: hidden;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.mainNav {
+    display: block;
+    width: 70%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    font-family: 'blackjackregular';
+    font-size: 1.2em;
+    list-style: none;
+}
+.mainNav ul li {
+    display: inline;
+    float: left;
+    text-align: center;
+}
+.mainNav ul li a {
+    display: block;
+    width: 5em;
+    height: 1.8em;
+    text-align: center;
+    padding: 1em;
+    margin: .6em .4em .2em;
+    border: .2em solid #848A98;
+    border-style: outset;
+    opacity: .9;
+    box-shadow: 4px 4px 5px #848A98;
+}
+.mainNav .homepage {
+    background-image: url(image/house.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.mainNav .maidenpage {
+    background-image: url(image/maiden.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.mainNav .motherpage {
+    background-image: url(image/baby.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.mainNav .queenpage {
+    background-image: url(image/queen2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.mainNav .cronepage {
+    background-image: url(image/old%20woman.jpeg);
+    background-size: cover;
+    background-position: top center;
+}
+.mainNav a:hover {
+    opacity: .2;
+}
+.mainNav a:active {
+    opacity: 1;
+    border-style: inset;
+}
+#mainContent {
+    width: 100%;
+    padding: .5em .5em 2em;
+    margin-right: 1em
+}
+#mainContent h3 {
+    padding: 1em 0;
+    margin-left: -.5em;
+}
+.resourceMenu {
+    float: right;
+    width: 32%;
+}
+.quotes {
+    padding: 1em .5em;
+    border: .1em solid #E3D8C1;
+    border-radius: 1em;
+    background-color: rgba(174, 195, 195, 0.5);
+    font-size: .9em;
+    font-style: italic;
+}
+.contentImage img {
+    float: left;
+    margin-right: .4em;
+    border-color: white;
+    border-radius: 1em;
+}
+.mainArticle {
+    float: left;
+    width: 60%;
+    margin: 0 2em .5em;
+}
+.footer {
+    clear: left;
+    background-color: #848A98;
+    padding: .5em .5em .5em;
+    color: white;
+    font-size: .8em;
+    border: 0.1em solid white;
+}
+
+/*----Main Bootstrap Custom Styling-----*/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 0;
+    /* background-color: #90B0AF; */
+    /* background-color: white; */
+    background-color: #a4bebd;
+    
+}
+
+.jumbotron {
+    width: 100%;
+    color: white;
+    background-color: #848A98;
+    margin-top: 0.75em;
+    
+    
+}
+.jumbotron h2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#mainContainer {
+    background-color: white;
+    overflow: visible;
+}
+
+
+
+.imageSection {
+    background-image:url(image/goldbird.gif);
+    background-repeat: no-repeat;
+   
+}
+
+@media (max-width: 768px) {
+    .imageSection {
+        background-position: -9999px; 
+    }
+}
+
+@media (min-width: 768px) {
+    .imageSection {
+        background-position: -5em 8em
+            }
+}  
+
+@media (min-width: 992px) {
+    .imageSection {
+        background-position: 60% 8em;
+            }
+}  
+@media (max-width: 992px) {
+    .imageSection {
+        background-size: contain;
+        background-position: center;
+    }
+}
+@media (min-width: 768px) {
+    .quotes {
+        margin-top: 5em;
+        margin-bottom: 10em;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .quotes {
+        margin-top: 1em;
+        margin-left: 2.5em;
+    }
+}
+    
+
+
+@media (max-width: 768px) {
+    .mainsection {
+        padding-left: 1em;
+        padding-right: 1em;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .mainsection {
+        padding-left: 1em;
+        padding-right: .5em;
+        
+    }
+}
+
+       
+@media (max-width: 768px) {
+    .homecontent {
+        padding-right: 2em;
+    }
+}
+
+      
+        
